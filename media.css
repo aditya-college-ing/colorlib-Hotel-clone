@@ -1,0 +1,131 @@
+@media screen and (min-width:0px) and (max-width: 900px) {
+  .booking-form{
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .form-group{
+    width: 90%;
+    margin: auto;
+  }
+  .search-btn{
+    width: 90%;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    width: 100%;
+    padding-top: 20px;
+  }
+  .guest-img {
+    flex-direction: column;
+  }
+  .guest {
+    margin: auto;
+    width: 80%;
+    height: 370px;
+  }
+  .hero{
+    width: 100%;
+    padding-top: 10vh;
+  }
+  .hero p{
+    font-size: 24px;
+    width: 90%;
+    margin: auto;
+  }
+  .nav-logo{
+    display: none;
+  }
+  .menu-text{
+    width: 40%;
+  }
+  .booking-form{
+    padding-top: 20%;
+  }
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 600px) {
+  .text {
+    padding: 0px;
+    width: 90%;
+  }
+  .text h2 {
+    font-size: 24px;
+  }
+  .video-container {
+    margin: auto;
+    height: 295px;
+    padding-top: 20px;
+  }
+  .guest-container {
+    padding-top: 15px;
+    padding-bottom: 0px;
+  }
+  .guest-heading h2 {
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  .rooms-section {
+    padding-top: 10px;
+  }
+  .room-section {
+    width: 100%;
+    padding: 0px;
+  }
+  .guest img {
+    height: auto;
+  }
+  .luxury-section {
+    flex-direction: column;
+    height: auto;
+  }
+  .luxury-img2 {
+    display: none;
+  }
+  .luxury-section .box {
+    width: 100%;
+  }
+  .luxury-text h1 {
+    font-size: 30px;
+  }
+  .luxury-text h2 {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  .luxury-text p {
+    margin-top: 10px;
+  }
+  .footer{
+    padding: 65px 0px 0px 0px; 
+    padding-bottom: 0px;
+  }
+  .footer-boxes{
+    flex-direction: column;
+  }
+  .footer-box{
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+  .footer-box h4{
+   font-size: 24px;
+   color: #e29c89;
+  }
+  .footer-social{
+    font-size: 24px;
+    line-height: 0.5;
+    margin-top: 15px;
+  }
+  .last-text{
+    font-size: 11px;
+    margin-bottom: 5px;
+  }
+  .footer-box a{
+    text-decoration: none;
+    color: white;
+  }
+}

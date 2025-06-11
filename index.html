@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/media.css" />
+  </head>
+
+  <body>
+    <!-- Navbar start's form Here -->
+
+    <div class="top-Navbar">
+      <div class="nav-info">Call Us: +10 (89) 675 5456 | info@rolax.com</div>
+      <div class="nav-logo">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+      </div>
+    </div>
+    <style>
+      .booking-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        gap: 30px;
+        color: white;
+        margin: auto;
+      }
+
+      .form-group {
+        display: flex;
+        flex-direction: column;
+        color: white;
+      }
+
+      .input-box {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid white;
+        padding: 5px 0;
+      }
+
+      .input-box i {
+        margin-right: 10px;
+        font-size: 18px;
+      }
+
+      .input-box input {
+        background: transparent;
+        border: none;
+        outline: none;
+        color: white;
+        font-size: 16px;
+      }
+
+      .select-group select {
+        padding: 10px 20px;
+        font-size: 16px;
+        border: 2px solid white;
+        background-color: transparent;
+        color: white;
+        appearance: none;
+        background-repeat: no-repeat;
+        background-position: right 10px center;
+        background-size: 10px 6px;
+      }
+
+      .search-btn {
+        background-color: white;
+        color: black;
+        padding: 12px 30px;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+
+    <div class="back-image">
+      <nav class="Menu">
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkboxbtn" style="color: white"
+          >Menu<i class="fa-solid fa-bars"></i
+        ></label>
+        <div class="menu-text">
+          <h2>Rolax Resort</h2>
+        </div>
+        <div class="about-menu">
+          <a href="#">Home</a>
+          <a href="#">Rooms</a>
+          <a href="#">About</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact Us</a>
+          <div class="booking"><a href="#">Book Now</a></div>
+        </div>
+      </nav>
+      <div class="hero" style="padding-bottom: 10%">
+        <p>Rest Journey in Single step, in the breathtaking</p>
+      </div>
+      <section class="booking-form">
+        <div class="form-group">
+          <label>Check In Date*</label>
+          <div class="input-box">
+            <i class="fas fa-calendar-alt"></i>
+            <input type="text" placeholder="Check in" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Check Out Date*</label>
+          <div class="input-box">
+            <i class="fas fa-calendar-alt"></i>
+            <input type="text" placeholder="Check out" />
+          </div>
+        </div>
+        <div class="form-group select-group">
+          <select>
+            <option>Adult</option>
+            <option>1 Adult</option>
+            <option>2 Adults</option>
+          </select>
+        </div>
+        <div class="form-group select-group">
+          <select>
+            <option>Children</option>
+            <option>0</option>
+            <option>1</option>
+            <option>2</option>
+          </select>
+        </div>
+        <button class="search-btn">Search</button>
+      </section>
+    </div>
+
+    <!-- luxury-section-->
+    <section class="luxury-section">
+      <div class="box luxury-img">
+        <img
+          src="Images/section-img.webp"
+          alt="Luxury hotel view"
+          class="img-top"
+          style="width: 100%"
+        />
+      </div>
+      <div class="box luxury-text">
+        <h1>Luxury & Comfort</h1>
+        <h2>Our services and wonders of Prague</h2>
+        <p>
+          The concept and service of the best luxury hotels in Asturias in our
+          sophisticated Urban Double and Unique Junior Suite rooms, with the
+          possibility of enjoying a furnished terrace in our Double Urban Loft
+          and Unique Junior Loft Suite.
+        </p>
+        <a href="#" class="btn">Learn More</a>
+      </div>
+      <div class="box1 luxury-img2">
+        <img src="Images/section-img2.webp" alt="Luxury sofa" />
+      </div>
+    </section>
+    <!-- Section End Here  -->
+
+    <article>
+      <div class="rooms-section">
+        <div class="room-section">
+          <h1>Our Rooms</h1>
+          <p>
+            The concept and service of the best luxury hotels in Asturias in our
+            sophisticated.
+          </p>
+        </div>
+
+        <div class="rooms-container">
+          <div class="room-card">
+            <img src="Images/room1.webp" alt="Luxurious Room" />
+            <div class="room-info">
+              <h3>Luxurious Room</h3>
+              <p>2 Adult 1 Children</p>
+              <p>Started from <span>$500</span></p>
+            </div>
+          </div>
+
+          <div class="room-card">
+            <img src="Images/room2.webp" alt="Family Room" />
+            <div class="room-info">
+              <h3>Family Room</h3>
+              <p>2 Adult 1 Children</p>
+              <p>Started from <span>$500</span></p>
+            </div>
+          </div>
+
+          <div class="room-card">
+            <img src="Images/room3.webp" alt="Couple Room" />
+            <div class="room-info">
+              <h3>Couple Room</h3>
+              <p>2 Adult 1 Children</p>
+              <p>Started from <span>$500</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- Text area -->
+
+    <div class="main-text">
+      <div class="text">
+        <h2>
+          Surrounded by galleries, boutiques, restaurants and cafés, our Hotel
+          is a hub of energy and style.
+        </h2>
+        <a href="#" class="tittle-btn mt-15">Find a Room For You</a>
+      </div>
+      <div class="container">
+        <div class="image-section">
+          <img src="Images/main-text-img.webp" alt="Seasonal Specials" />
+        </div>
+        <div class="text-section">
+          <div style="padding: 40px">
+            <h1>Take advantage of our seasonal specials.</h1>
+            <p>
+              The concept and service of the best luxury hotels in Asturias in
+              our sophisticated Urban Double and Unique Junior Suite rooms, with
+              the possibility of enjoying a furnished terrace in our Double
+              Urban Loft and Unique Junior Loft Suite.
+            </p>
+            <a href="#" class="view-button">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video-container">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/ZJsjGBiH3P8?si=8M7VxFC7KGAX9bNt"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div class="guest-container">
+      <div class="guest-heading">
+        <h2>We Offer to Our Guest</h2>
+      </div>
+      <div class="guest-img">
+        <div class="guest">
+          <img src="/Images/guest1.jpg.webp" alt="welcome drink" />
+          <div class="text-overlay">Free Drink</div>
+        </div>
+        <div class="guest">
+          <img src="/Images/guest2.jpg.webp" alt="welcome drink" />
+          <div class="text-overlay">Free Breakfast</div>
+        </div>
+        <div class="guest">
+          <img src="/Images/guest3.jpg.webp" alt="welcome drink" />
+          <div class="text-overlay">Free Dinner</div>
+        </div>
+      </div>
+    </div>
+
+    <section class="testimonial-section">
+      <div class="testimonial-container">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <div class="testimonial-box">
+              <h2>Nice Accommodation</h2>
+              <p>
+                "Leather detail shoulder contrastic colour contour stunning
+                silhouette working peplum. Statement buttons cover-up tweaks
+                patch."
+              </p>
+              <span>- Omeka Lotus</span>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonial-box">
+              <h2>Nice Accommodation</h2>
+              <p>
+                "Leather detail shoulder contrastic colour contour stunning
+                silhouette working peplum. Statement buttons cover-up tweaks
+                patch."
+              </p>
+              <span>- Omeka Lotus</span>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonial-box">
+              <h2>Delicious Food</h2>
+              <p>
+                "Leather detail shoulder contrastic colour contour stunning
+                silhouette working peplum. Statement buttons cover-up tweaks
+                patch."
+              </p>
+              <span>- Omeka Lotus</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <div class="footer-boxes">
+          <div class="footer-box">
+            <h4>Rolax Resort</h4>
+            <p>
+              Leather detail contrastic colour contour stunning silhouette
+              working peplum. Statement buttons patch.
+            </p>
+            <div class="footer-social">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+          </div>
+          <div class="footer-box">
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Our Rooms</a></li>
+              <li><a href="#">Book A Room</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Privacy & policy</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-box">
+            <h4>Contact</h4>
+            <span>76/A, Green Lane, Dhanmondi, NYC</span><br />
+            <span> 10 (87) 738-3940</span><br />
+            <span>contact@carwash.com</span>
+          </div>
+          <div class="footer-box">
+            <h4>Newsletter</h4>
+            <p>Subscribe our newsletter to get updates.</p>
+            <input class="email" type="email" placeholder="Enter your email" />
+            <button type="button" class="search">Search</button>
+          </div>
+        </div>
+        <div
+          class="last-text"
+          style="
+            text-align: center;
+            color: white;
+            font-weight: 100;
+            width: 100%;
+          "
+        >
+          <p>
+            &copy; 2025 All rights reserved | This template is made with
+            <span style="color: #b86e5a">&#10084;</span> by
+            <a
+              href="https://colorlib.com"
+              target="_blank"
+              style="text-decoration: none; color: inherit"
+              >Colorlib</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        autoplay: true,
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 1,
+          },
+          1000: {
+            items: 2,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
