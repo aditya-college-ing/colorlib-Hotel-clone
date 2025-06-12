@@ -30,6 +30,62 @@
   width: 120px;
   margin-right: 20px;
 }
+.booking-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  gap: 30px;
+  color: white;
+  margin: auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid white;
+  padding: 5px 0;
+}
+
+.input-box i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.input-box input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 16px;
+}
+
+.select-group select {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  appearance: none;
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 10px 6px;
+}
+
+.search-btn {
+  background-color: white;
+  color: black;
+  padding: 12px 30px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
 
 /* Menu section */
 .back-image {
